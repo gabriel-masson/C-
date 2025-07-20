@@ -81,3 +81,15 @@ Use constexpr com cuidado: é inline e visível globalmente.
 Mantenha seus headers limpos. Use .cpp para compilar rápido ✨
 
 No final compile os dois cpp
+
+```
+# g++  main.cpp a.cpp -o programa
+```
+Depois execute com 
+```
+# ./programa
+```
+
+
+
+
