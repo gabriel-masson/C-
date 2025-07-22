@@ -61,7 +61,9 @@ class Queue{
             first = first->next;
             delete temp;
             temp = nullptr;
-            first->prev = nullptr; // Update the new first node's prev pointer
+            if(first != nullptr) {
+                first->prev = nullptr; // Update the new first node's prev pointer
+            }
         }else{
             std::cout << "Queue is empty, nothing to dequeue." << std::endl;
         }
