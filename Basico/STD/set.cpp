@@ -5,7 +5,10 @@
 #include<string>
 #include<set>
 using namespace std::string_literals;
-
+//a principal diferença entre set e unordered_set é que o set é ordenado, enquanto o unordered_set não é.
+// a diferença entre set e map é que o set armazena apenas valores únicos, enquanto o map armazena pares de chave-valor.
+//a diferença entre set e vector é que o set não permite elementos duplicados e é ordenado, enquanto o vector permite duplicatas e mantém a ordem de inserção.
+//a diferença entre set e array é que o set é dinâmico e não permite duplicatas, enquanto o array tem tamanho fixo e pode conter duplicatas.
 int main(){
     std::set<std::string> mySet;
     std::vector<std::string> elements = {"apple", "banana", "cherry", "apple"};
